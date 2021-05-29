@@ -18,10 +18,9 @@ namespace CSharpDepthFirstTraversal
 
         private static void DepthFirstTraversal(int[,] graph)
         {
-            int cols;
             for (int rows = 0; rows < rowLength; rows++)
             {
-                for (cols = 0; cols < columnLength; cols++)
+                for (int cols = 0; cols < columnLength; cols++)
                 {
                     if (graph[rows, cols] == 1)
                     {   
