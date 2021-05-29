@@ -21,7 +21,6 @@ namespace CSharpDepthFirstTraversal
             int cols;
             for (int rows = 0; rows < rowLength; rows++)
             {
-                cols = 0;
                 for (cols = 0; cols < columnLength; cols++)
                 {
                     if (graph[rows, cols] == 1)
